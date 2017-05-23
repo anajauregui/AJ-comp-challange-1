@@ -175,6 +175,7 @@ body {
   }
 
   .box1 {
+    align-items: center;
     padding: 10px;
     width: 33.333%;
     font-size: 16px;
@@ -217,7 +218,6 @@ body {
   .box1 {
     align-items: center;
     display: flex;
-    /*flex-wrap: wrap;*/
     justify-content: center;
     width: 100%;
   }
@@ -232,7 +232,6 @@ body {
   .box1 p {
     font-size: 18px;
     margin: 0 20px;
-    /*padding: 0 20px;*/
     width: 50%;
   }
 
@@ -263,18 +262,6 @@ body {
   }
 
 }
-
-/*@media screen and (max-width: 700px) {
-  .box1 p {
-    padding: 0 5px;
-  }
-}
-
-/*@media screen and (max-width: 640px) {
-  .box1 p {
-
-  }
-}*/
 
 @media screen and (max-width: 620px) {
   .box1 p {
